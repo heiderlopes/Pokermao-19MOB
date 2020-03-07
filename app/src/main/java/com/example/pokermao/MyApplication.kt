@@ -4,6 +4,7 @@ import android.app.Application
 import com.example.pokermao.di.networkModule
 import com.example.pokermao.di.repositoryModule
 import com.example.pokermao.di.viewModelModule
+import com.example.pokermao.di.viewModule
 import com.facebook.stetho.Stetho
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
@@ -23,7 +24,8 @@ class MyApplication : Application() {
                 listOf(
                     viewModelModule,
                     networkModule,
-                    repositoryModule
+                    repositoryModule,
+                    viewModule
                 )
             )
         }
