@@ -5,6 +5,7 @@ import com.example.pokermao.api.AuthInterceptor
 import com.example.pokermao.api.PokemonService
 import com.example.pokermao.repository.PokemonRepository
 import com.example.pokermao.repository.PokemonRepositoryImpl
+import com.example.pokermao.view.detail.DetailViewModel
 import com.example.pokermao.view.form.FormPokemonViewModel
 import com.example.pokermao.view.list.ListPokemonsAdapter
 import com.example.pokermao.view.list.ListPokemonsViewModel
@@ -29,6 +30,7 @@ val viewModelModule = module {
     viewModel { SplashViewModel(get()) }
     viewModel { ListPokemonsViewModel(get()) }
     viewModel { FormPokemonViewModel(get()) }
+    viewModel { DetailViewModel(get()) }
 }
 
 val repositoryModule = module {

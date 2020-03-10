@@ -20,7 +20,7 @@
             android:fontFamily="@font/pokemon_solid"
             android:textColor="#FFFFFF"
             android:textSize="22sp"
-            tools:text="P e r m i s s ã o\nn e c e s s á r i a" />
+            android:text="P e r m i s s ã o\nn e c e s s á r i a" />
 
     <ImageView
             android:visibility="gone"
@@ -39,7 +39,7 @@
             android:padding="8dp"
             android:textColor="#FFF"
             android:textSize="18sp"
-            tools:text="Precisamos ter acesso a camera do seu device para scannear o QRCode." />
+            android:text="Precisamos ter acesso a camera do seu device para scannear o QRCode." />
 
     <Button
             android:textColor="#FF5722"
